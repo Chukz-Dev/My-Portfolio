@@ -17,6 +17,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .container{
   padding: 10px 12%;
@@ -358,7 +359,10 @@ textarea{
 
 
 @media (max-width: 600px){
-
+    .header{
+      background-attachment: fixed;
+      background-position-x: -500px;
+    }
     .about-page{
       height: fit-content;
     }
@@ -409,7 +413,9 @@ textarea{
       margin-bottom: 50px;
       width: 100%;
       column-gap: 2rem;
+      row-gap: 5rem;
     }
 
 }
+
 
