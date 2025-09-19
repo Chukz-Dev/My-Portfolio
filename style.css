@@ -361,7 +361,7 @@ textarea{
 @media (max-width: 600px){
     .header{
       background-attachment: fixed;
-      background-position-x: -500px;
+      background-position-x: -750px;
     }
     .about-page{
       height: fit-content;
@@ -417,5 +417,6 @@ textarea{
     }
 
 }
+
 
 
